@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+//components
+import Navbar from "./navbar/Navbar";
+import Felsefe from "./categories/felsefe/Felsefe";
+import Tarih from "./categories/tarih/Tarih";
+import Sanat from "./categories/sanat/Sanat";
+import Bilim from "./categories/bilim/Bilim";
+
+//style
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <BrowserRouter>
+        <Navbar />
+
+        <Routes>
+          <Route path="/felsefe" element={<Felsefe />} />
+          <Route path="/tarih" element={<Tarih />} />
+          <Route path="/sanat" element={<Sanat />} />
+          <Route path="/bilim" element={<Bilim />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
