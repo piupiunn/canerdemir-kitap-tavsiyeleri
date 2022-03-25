@@ -1,0 +1,7 @@
+.felsefe {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 0;
+}

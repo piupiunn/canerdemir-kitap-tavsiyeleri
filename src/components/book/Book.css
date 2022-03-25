@@ -1,0 +1,17 @@
+.book {
+  display: grid;
+  margin-top: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 250px;
+}
+.book img {
+  width: 200px;
+  height: 300px;
+}
+.book-info {
+  width: 199px;
+  height: 298px;
+  border: 1px solid;
+  padding-left: 10px;
+}
