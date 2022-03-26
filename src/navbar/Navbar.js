@@ -19,6 +19,9 @@ export default function Navbar() {
       <NavLink to="/bilim">
         <p>Bilim</p>
       </NavLink>
+      <NavLink to="/kisisel-gelisim">
+        <p>Kişisel Gelişim</p>
+      </NavLink>
     </div>
   );
 }

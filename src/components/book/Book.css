@@ -1,17 +1,71 @@
 .book {
   display: grid;
-  margin-top: 30px;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-top: 100px;
+  margin-right: 100px;
+  margin-left: 115px;
   margin-bottom: 250px;
+  border-top: 1px solid;
+  border-left: 1px solid;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-color: white;
+  width: 230px;
+  height: 400px;
+
+  background-color: rgb(44, 44, 44, 0.8);
+  box-shadow: rgba(45, 35, 66, 0.4) 10px 5px 8px,
+    rgba(45, 35, 66, 0.3) 10px 14px 26px -6px, inset;
 }
 .book img {
   width: 200px;
   height: 300px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 2px 1px 1px;
+  filter: contrast(120%);
 }
 .book-info {
   width: 199px;
   height: 298px;
-  border: 1px solid;
+  color: #d6d6e7;
   padding-left: 10px;
+}
+.book-box {
+  margin-left: 50px;
+  margin-bottom: 50px;
+  transition: all 0.7s ease;
+  box-shadow: rgba(45, 35, 66, 0.4) 10px 5px 8px,
+    rgba(45, 35, 66, 0.3) 10px 14px 26px -6px, #d6d6e7 -0.5px -0.5px 5px inset;
+  width: 450px;
+  height: 600px;
+}
+.book-box:hover {
+  transform: scale(1.1);
+  transition: all 0.7s ease;
+}
+.buttons {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.buttons a {
+  text-decoration: none;
+  font-weight: 1000;
+  color: black;
+}
+.buttons button {
+  border-radius: 4px;
+  box-shadow: rgba(45, 35, 66, 0.4) 10px 5px 8px,
+    rgba(45, 35, 66, 0.3) 10px 14px 26px -6px,
+    rgb(213, 213, 230) 1px -1px 4px inset;
+  border-style: none;
+  transition: background 0.8s;
+  width: 100px;
+  height: 40px;
+
+  background-color: rgb(213, 213, 230, 0.85);
+  margin-left: 15px;
+  font-size: 11px;
+  padding: 2px;
 }

@@ -3,5 +3,10 @@
   padding: 0px;
 }
 body {
-  width: 2200px;
+  width: 2000px;
+
+  font-family: "Poiret One", cursive;
+}
+button {
+  font-family: inherit;
 }
