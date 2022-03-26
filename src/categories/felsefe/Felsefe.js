@@ -1,11 +1,6 @@
 import React from "react";
 import Book from "../../components/book/Book";
-import {
-  backgrounds,
-  bookLinks,
-  searchLinks,
-  youtubeLinks,
-} from "../../bookLinks";
+import { bookLinks, searchLinks, youtubeLinks } from "../../bookLinks";
 
 //style
 import "./Felsefe.css";
@@ -17,63 +12,29 @@ export default function Felsefe() {
         name={"Platon"}
         imageSource={bookLinks.Platon}
         author={"Frank Herbert"}
-        style={{ backgroundColor: "#C6B5D8", borderRadius: "10px" }}
+        searchLink={searchLinks.Platon}
+        youtubeLink={youtubeLinks.Platon}
       />
       <Book
         name={"Nietzsche"}
         imageSource={bookLinks.Nietzsche}
         author={"Frank Herbert"}
-        style={{
-          backgroundImage: `url(${backgrounds.Nietzsche})`,
-          borderRadius: "10px",
-        }}
-        searchLink={<a href={searchLinks.Nietzsche}>Google Search Link</a>}
-        youtubeLinks={<a href={youtubeLinks.Nietzsche}>Youtube Link</a>}
+        searchLink={searchLinks.Nietzsche}
+        youtubeLink={youtubeLinks.Nietzsche}
       />
       <Book
-        name={"Dune"}
-        imageSource={bookLinks.Dune}
+        name={"Sokrates"}
+        imageSource={bookLinks.Sokrates}
         author={"Frank Herbert"}
+        searchLink={searchLinks.Sokrates}
+        youtubeLink={youtubeLinks.Sokrates}
       />
       <Book
-        name={"Dune"}
-        imageSource={bookLinks.Dune}
+        name={"Nietzsche"}
+        imageSource={bookLinks.NietzscheZerdust}
         author={"Frank Herbert"}
-      />
-      <Book
-        name={"Dune"}
-        imageSource={bookLinks.Dune}
-        author={"Frank Herbert"}
-      />
-      <Book
-        name={"Dune"}
-        imageSource={bookLinks.Dune}
-        author={"Frank Herbert"}
-      />
-      <Book
-        name={"Dune"}
-        imageSource={bookLinks.Dune}
-        author={"Frank Herbert"}
-      />
-      <Book
-        name={"Dune"}
-        imageSource={bookLinks.Dune}
-        author={"Frank Herbert"}
-      />
-      <Book
-        name={"Dune"}
-        imageSource={bookLinks.Dune}
-        author={"Frank Herbert"}
-      />
-      <Book
-        name={"Dune"}
-        imageSource={bookLinks.Dune}
-        author={"Frank Herbert"}
-      />
-      <Book
-        name={"Dune"}
-        imageSource={bookLinks.Dune}
-        author={"Frank Herbert"}
+        searchLink={searchLinks.NietzscheZerdust}
+        noYoutube
       />
     </div>
   );
