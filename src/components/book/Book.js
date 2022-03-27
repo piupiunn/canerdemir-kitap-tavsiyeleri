@@ -15,9 +15,9 @@ export default function Book({
   return (
     <div className="book-box">
       <div className="book">
+        <h3>{name}</h3>
+        <h4>{author}</h4>
         <div className="book-info">
-          <h4>{name}</h4>
-          <h5>{author}</h5>
           <img src={imageSource} alt="" />
         </div>
         <div className="buttons">
@@ -27,7 +27,7 @@ export default function Book({
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button>Google</button>
+            <button style={style}>Google</button>
           </a>
 
           <a
@@ -36,7 +36,7 @@ export default function Book({
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button>Youtube</button>
+            <button style={style}>Youtube</button>
           </a>
         </div>
       </div>
