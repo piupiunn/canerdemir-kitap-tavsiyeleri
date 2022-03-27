@@ -1,5 +1,6 @@
 //Kapak Linkleri
 export const bookLinks = {
+  //felsefe
   Platon: "https://i.dr.com.tr/cache/500x400-0/originals/0000000587895-1.jpg",
   Nietzsche:
     "https://i.dr.com.tr/cache/500x400-0/originals/0000000218200-1.jpg",
@@ -12,8 +13,19 @@ export const bookLinks = {
   PlatonDevlet: "https://img.iskultur.com.tr/2006/04/devlet-1.png",
   Popper:
     "https://www.yapikrediyayinlari.com.tr/dosyalar/2017/03/hayat-problem-cozmektir_yeni-6879-220x339.jpg",
+  RusselSeriBir:
+    "https://i.dr.com.tr/cache/500x400-0/originals/0000000706553-1.jpg",
+  RusselSeriIkı:
+    "https://cdn.dsmcdn.com/ty127/product/media/images/20210607/22/96884345/14461396/1/1_org_zoom.jpg",
+  RusselSeriUc:
+    "https://i.idefix.com/cache/500x400-0/originals/0000000706568-1.jpg",
+  KantElestiri:
+    "https://images-na.ssl-images-amazon.com/images/I/917uqMmCn0L.jpg",
+  //tarih
   HobsbawmImparatorluk:
     "https://cdn1.dokuzsoft.com/u/kuramkitap/img/c/i/m/imparatorluk-1574860701.jpg",
+  YalınAlpayTarih:
+    "http://www.yalinalpay.com/uploads/1/4/9/0/14908878/editor/tu-rk-ye-ekonom-s-o-n-kapak.jpg?1515933113",
   HobsbawmSermaye:
     "https://cdn1.dokuzsoft.com/u/kitapambari/img/c/s/e/sermaye-cagi-1848-18757518d1e3f97945ce6ae8cbf9ba978cc9.jpg",
   HobsbawmDevrim:
@@ -26,6 +38,7 @@ export const bookLinks = {
   HarariHomoDeus:
     "https://www.arkeolojisanat.com/upload/data/_thumbs/images/arkeoloji/homodeus.jpg",
   JaredTufekCelik:
+    //sanat
     "https://img.kitapyurdu.com/v1/getImage/fn:7027950/wh:true/wi:800",
   GombrichSanatınOykusu:
     "https://i.idefix.com/cache/500x400-0/originals/0000000054894-1.jpg",
@@ -33,8 +46,6 @@ export const bookLinks = {
     "https://i.dr.com.tr/cache/500x400-0/originals/0000000057085-1.jpg",
   LeppertSanat:
     "https://www.ayrintiyayinlari.com.tr/u/ayrintiyayinlari/img/c/s/a/sanatta-anlamin-goruntusu-1606806074.jpg",
-  YalınAlpayTarih:
-    "http://www.yalinalpay.com/uploads/1/4/9/0/14908878/editor/tu-rk-ye-ekonom-s-o-n-kapak.jpg?1515933113",
   LegrosSanat:
     "https://m.media-amazon.com/images/I/316xvs6zRjS._AC_SY1000_.jpg",
   VesnaKuratorluk:
@@ -43,17 +54,29 @@ export const bookLinks = {
     "https://m.media-amazon.com/images/I/41mVjbt2z1L._AC_SY780_.jpg",
   BarrettElestirmek:
     "https://i.dr.com.tr/cache/600x600-0/originals/0000000422120-1.jpg",
-  RusselSeriBir:
-    "https://i.dr.com.tr/cache/500x400-0/originals/0000000706553-1.jpg",
-  RusselSeriIkı:
-    "https://cdn.dsmcdn.com/ty127/product/media/images/20210607/22/96884345/14461396/1/1_org_zoom.jpg",
-  RusselSeriUc:
-    "https://i.idefix.com/cache/500x400-0/originals/0000000706568-1.jpg",
+  //bilim
+  DarwinTureyis:
+    "https://images-na.ssl-images-amazon.com/images/I/51gKpOvPEvL.jpg",
+  DarwinErvim:
+    "https://images-na.ssl-images-amazon.com/images/I/51kGyqvwd0L.jpg",
+  AlanSacmalar:
+    "https://i.dr.com.tr/cache/600x600-0/originals/0000000427674-1.jpg",
+  //yönetim
+  JohnLockeYonetim:
+    "https://i.dr.com.tr/cache/600x600-0/originals/0001834249001-1.jpg",
+  JohnMillOzgurluk:
+    "https://img.kitapyurdu.com/v1/getImage/fn:9599224/wh:true/miw:200/mih:200",
+  Rousseau: "https://img.iskultur.com.tr/2006/11/toplum-sozlesmesi.png",
+  Montesquieu:
+    "https://img.iskultur.com.tr/2017/03/kanunlarin-ruhu-uzerine-1.png",
+  YalınAlpaySiyaset:
+    "https://i.dr.com.tr/cache/500x400-0/originals/0001723685001-1.jpg",
 };
 //
 
 //Google arama linkleri
 export const searchLinks = {
+  //felsefe
   Platon:
     "https://www.google.com/search?q=Platon+Fikir+Mimarlar%C4%B1&oq=Platon+Fikir+Mimarlar%C4%B1&aqs=chrome..69i57.5159j0j1&sourceid=chrome&ie=UTF-8",
   Nietzsche:
@@ -68,6 +91,13 @@ export const searchLinks = {
     "https://www.google.com/search?q=Platon+Devlet+%C4%B0%C5%9F+Bankas%C4%B1&oq=Platon+Devlet+%C4%B0%C5%9F+Bankas%C4%B1&aqs=chrome..69i57.735j0j1&sourceid=chrome&ie=UTF-8",
   Popper:
     "https://www.google.com/search?q=Popper+Daha+%C4%B0yi+Bir+D%C3%BCnya+Aray%C4%B1%C5%9F%C4%B1+YKY&oq=Popper+Daha+%C4%B0yi+Bir+D%C3%BCnya+Aray%C4%B1%C5%9F%C4%B1+YKY&aqs=chrome..69i57.1655j0j9&sourceid=chrome&ie=UTF-8",
+  RusselSeriBir:
+    "https://www.google.com/search?q=Bat%C4%B1+Felsefesi+Tarihi+1.+Cilt+Bertrand+Russell&oq=Bat%C4%B1+Felsefesi+Tarihi+1.+Cilt+Bertrand+Russell&aqs=chrome..69i57.16160j0j9&sourceid=chrome&ie=UTF-8",
+  RusselSeriIkı:
+    "https://www.google.com/search?q=Bat%C4%B1+Felsefesi+Tarihi+2.+Cilt+Bertrand+Russell&oq=Bat%C4%B1+Felsefesi+Tarihi+2.+Cilt+Bertrand+Russell&aqs=chrome..69i57.2551j0j9&sourceid=chrome&ie=UTF-8",
+  RusselSeriUc:
+    "https://www.google.com/search?q=Bat%C4%B1+Felsefesi+Tarihi+3.+Cilt+Bertrand+Russell&oq=Bat%C4%B1+Felsefesi+Tarihi+3.+Cilt+Bertrand+Russell&aqs=chrome..69i57.2639j0j9&sourceid=chrome&ie=UTF-8",
+  //tarih
   HobsbawmImparatorluk:
     "https://www.google.com/search?q=Hobsbawm+%C4%B0mparatorluk+%C3%87a%C4%9F%C4%B1&oq=Hobsbawm+%C4%B0mparatorluk+%C3%87a%C4%9F%C4%B1&aqs=chrome..69i57.11359j0j9&sourceid=chrome&ie=UTF-8",
   HobsbawmSermaye:
@@ -86,6 +116,7 @@ export const searchLinks = {
     "https://www.google.com/search?q=Yal%C4%B1n+Alpay+Olaylarla+T%C3%BCrkiye+Ekonomisi&oq=Yal%C4%B1n+Alpay+Olaylarla+T%C3%BCrkiye+Ekonomisi&aqs=chrome..69i57.91073j0j9&sourceid=chrome&ie=UTF-8",
   JaredTufekCelik:
     "https://www.google.com/search?q=Jared+Diamond+T%C3%BCfek+Mikrop+ve+%C3%87elik&oq=Jared+Diamond+T%C3%BCfek+Mikrop+ve+%C3%87elik&aqs=chrome..69i57.9952j0j9&sourceid=chrome&ie=UTF-8",
+  //sanat
   GombrichSanatınOykusu:
     "https://www.google.com/search?q=Gombrich+Sanat%C4%B1n+%C3%96yk%C3%BCs%C3%BC&oq=Gombrich+Sanat%C4%B1n+%C3%96yk%C3%BCs%C3%BC&aqs=chrome..69i57.775j0j9&sourceid=chrome&ie=UTF-8",
   JohnBergerGorme:
@@ -100,19 +131,39 @@ export const searchLinks = {
     "https://www.google.com/search?q=Terry+Barrett+Neden+Bu+Sanat%3F%3A+%C3%87a%C4%9Fda%C5%9F+Sanatta+Estetik+ve+Ele%C5%9Ftiri&oq=Terry+Barret+Neden+Bu+Sanat%3F%3A+%C3%87a%C4%9Fda%C5%9F+Sanatta+Estetik+ve+Ele%C5%9Ftiri&aqs=chrome..69i57.26200j0j9&sourceid=chrome&ie=UTF-8",
   BarrettElestirmek:
     "https://www.google.com/search?q=Terry+Barrett+Sanat%C4%B1+Ele%C5%9Ftirmek%3A+G%C3%9Cnceli+Anlamak&oq=Terry+Barrett+Sanat%C4%B1+Ele%C5%9Ftirmek%3A+G%C3%9Cnceli+Anlamak&aqs=chrome..69i57.21504j0j9&sourceid=chrome&ie=UTF-8",
-  RusselSeriBir:
-    "https://www.google.com/search?q=Bat%C4%B1+Felsefesi+Tarihi+1.+Cilt+Bertrand+Russell&oq=Bat%C4%B1+Felsefesi+Tarihi+1.+Cilt+Bertrand+Russell&aqs=chrome..69i57.16160j0j9&sourceid=chrome&ie=UTF-8",
-  RusselSeriIkı:
-    "https://www.google.com/search?q=Bat%C4%B1+Felsefesi+Tarihi+2.+Cilt+Bertrand+Russell&oq=Bat%C4%B1+Felsefesi+Tarihi+2.+Cilt+Bertrand+Russell&aqs=chrome..69i57.2551j0j9&sourceid=chrome&ie=UTF-8",
-  RusselSeriUc:
-    "https://www.google.com/search?q=Bat%C4%B1+Felsefesi+Tarihi+3.+Cilt+Bertrand+Russell&oq=Bat%C4%B1+Felsefesi+Tarihi+3.+Cilt+Bertrand+Russell&aqs=chrome..69i57.2639j0j9&sourceid=chrome&ie=UTF-8",
+  //bilim
+  DarwinErvim:
+    "https://www.google.com/search?q=Darwin+T%C3%BCrlerin+K%C3%B6keni+Alfa+Bilim&oq=Darwin+T%C3%BCrlerin+K%C3%B6keni+Alfa+Bilim&aqs=chrome..69i57.6816j0j9&sourceid=chrome&ie=UTF-8",
+  DarwinTureyis:
+    "https://www.google.com/search?q=Alfa+Bilim+Darwin+%C4%B0nsan%C4%B1n+T%C3%BCreyi%C5%9Fi&oq=Alfa+Bilim+Darwin+%C4%B0nsan%C4%B1n+T%C3%BCreyi%C5%9Fi&aqs=chrome..69i57.8400j0j9&sourceid=chrome&ie=UTF-8",
+  AlanSacmalar:
+    "https://www.google.com/search?q=Son+Moda+Sa%C3%A7malar&oq=Son+Moda+Sa%C3%A7malar&aqs=chrome..69i57.6352j0j1&sourceid=chrome&ie=UTF-8",
+  //yönetim
+  JohnLockeYonetim:
+    "https://www.google.com/search?q=Y%C3%B6netim+%C3%9Czerine+%C4%B0kinci+%C4%B0nceleme&oq=Y%C3%B6netim+%C3%9Czerine+%C4%B0kinci+%C4%B0nceleme&aqs=chrome..69i57.10752j0j9&sourceid=chrome&ie=UTF-8",
+  JohnMillOzgurluk:
+    "https://www.google.com/search?q=John+Stuart+Mill+%C3%96zg%C3%BCrl%C3%BCk+%C3%9Czerine&oq=John+Stuart+Mill+%C3%96zg%C3%BCrl%C3%BCk+%C3%9Czerine&aqs=chrome..69i57.19191j0j9&sourceid=chrome&ie=UTF-8",
+  Rousseau:
+    "https://www.google.com/search?q=Rousseau+Toplum+S%C3%B6zle%C5%9Fmesi&oq=Rousseau+Toplum+S%C3%B6zle%C5%9Fmesi&aqs=chrome..69i57.12144j0j1&sourceid=chrome&ie=UTF-8",
+  Montesquieu:
+    "https://www.google.com/search?q=Montesquieu+Kanunlar%C4%B1n+Ruhu+%C3%9Czerine&oq=Montesquieu+Kanunlar%C4%B1n+Ruhu+%C3%9Czerine&aqs=chrome..69i57.9423j0j9&sourceid=chrome&ie=UTF-8",
+  YalınAlpaySiyaset:
+    "https://www.google.com/search?q=Yal%C4%B1n+Alpay+Yalan%C4%B1n+Siyaseti&oq=Yal%C4%B1n+Alpay+Yalan%C4%B1n+Siyaseti&aqs=chrome..69i57.5656j0j1&sourceid=chrome&ie=UTF-8",
 };
 //
 
 //Youtube linkleri
 export const youtubeLinks = {
+  //felsefe
   Platon: "https://www.youtube.com/watch?v=TXqVv6qYn4g",
   Nietzsche: "https://www.youtube.com/watch?v=I7KvxwvM98I&t=84s",
   Sokrates: "https://www.youtube.com/watch?v=80AKf5z9plg",
+  PlatonDevlet: "https://www.youtube.com/watch?v=4FE6jlJ2xPw",
+  //yonetim
+  YalınAlpaySiyaset:
+    "https://www.youtube.com/watch?v=BF-faMnoTFI&list=PL4sLdg6opbB56EPr25ryPWsnDK5lUAoZ0&index=1",
+  //tarih
+  HarariSapiens: "https://www.youtube.com/watch?v=iGUKiUAD64A&t=1197s",
+  HobsbawmDevrim: "https://www.youtube.com/watch?v=4jC-IHc2VDE",
 };
 //

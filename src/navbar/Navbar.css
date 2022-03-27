@@ -1,15 +1,18 @@
 .navbar {
   display: flex;
   justify-content: space-evenly;
-
-  background-color: gray;
+  margin-top: 10px;
+  background-color: white;
 }
 
 .navbar a {
   text-decoration: none;
-  color: white;
+  color: black;
   padding-top: 10px;
   padding-bottom: 10px;
+  font-weight: 1000;
+  border-right: 1px solid black;
+  padding-right: 100px;
 }
 @media screen and (max-width: 700px) {
   .navbar,

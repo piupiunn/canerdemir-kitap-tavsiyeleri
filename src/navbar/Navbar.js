@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <div className="navbar">
       <NavLink to="/felsefe">
-        <p>Felsefe</p>
+        <p>Felsefe </p>
       </NavLink>
       <NavLink to="/tarih">
         <p>Tarih</p>
@@ -21,6 +21,9 @@ export default function Navbar() {
       </NavLink>
       <NavLink to="/kisisel-gelisim">
         <p>Kişisel Gelişim</p>
+      </NavLink>
+      <NavLink to="/yonetim">
+        <p>Yönetim</p>
       </NavLink>
     </div>
   );

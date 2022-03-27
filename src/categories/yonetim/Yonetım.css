@@ -1,4 +1,4 @@
-.bilim {
+.yonetim {
   display: flex;
   flex-wrap: wrap;
   margin-top: 100px;
@@ -7,7 +7,7 @@
   flex: 20%;
 }
 @media screen and (max-width: 700px) {
-  .bilim {
+  .yonetim {
     flex-direction: column;
   }
 }

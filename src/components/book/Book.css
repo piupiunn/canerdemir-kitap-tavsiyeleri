@@ -3,15 +3,18 @@
   margin-top: 10px;
   margin-left: 40px;
 }
+.book h3 {
+  margin-top: 10px;
+}
 .book img {
   margin-top: 10px;
   width: 200px;
   height: 300px;
   border-radius: 10px;
-  box-shadow: 2px 1px 1px;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
   filter: contrast(120%);
   color: black;
-  border: 1px solid black;
 }
 
 .book-info {
@@ -23,7 +26,7 @@
 }
 .book-box {
   margin-left: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 150px;
   transition: all 0.7s ease;
   box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
     rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
@@ -53,9 +56,9 @@
   transition: background 0.8s;
   width: 100px;
   height: 40px;
-  margin-top: 70px;
+  margin-top: 55px;
   margin-right: 10px;
-
+  background-color: #ffffff;
   margin-left: 15px;
   font-size: 13px;
   padding: 2px;

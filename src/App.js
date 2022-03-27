@@ -6,6 +6,7 @@ import Felsefe from "./categories/felsefe/Felsefe";
 import Tarih from "./categories/tarih/Tarih";
 import Sanat from "./categories/sanat/Sanat";
 import Bilim from "./categories/bilim/Bilim";
+import Yonetım from "./categories/yonetim/Yonetım";
 import KisiselGelisim from "./categories/kisisel-gelisim/KisiselGelisim";
 
 //style
@@ -22,6 +23,7 @@ function App() {
           <Route path="/tarih" element={<Tarih />} />
           <Route path="/sanat" element={<Sanat />} />
           <Route path="/bilim" element={<Bilim />} />
+          <Route path="/yonetim" element={<Yonetım />} />
           <Route path="/kisisel-gelisim" element={<KisiselGelisim />} />
         </Routes>
       </BrowserRouter>

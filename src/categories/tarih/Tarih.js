@@ -1,6 +1,6 @@
 import React from "react";
 import Book from "../../components/book/Book";
-import { bookLinks, searchLinks } from "../../bookLinks";
+import { bookLinks, searchLinks, youtubeLinks } from "../../bookLinks";
 
 //style
 import "./Tarih.css";
@@ -9,67 +9,66 @@ export default function Tarih() {
   return (
     <div className="tarih">
       <Book
-        name={"Platon"}
+        name={"İmparatorluk Çağı"}
         imageSource={bookLinks.HobsbawmImparatorluk}
-        author={"Frank Herbert"}
+        author={"Eric Hobsbawm - Dost Yayınevi"}
         searchLink={searchLinks.HobsbawmImparatorluk}
-        style={{ backgroundColor: "#ffbcbc" }}
+        noYoutube
       />
       <Book
-        name={"Platon"}
+        name={"Devrim Çağı"}
         imageSource={bookLinks.HobsbawmDevrim}
-        author={"Frank Herbert"}
+        author={"Eric Hobsbawm - Dost Yayınevi"}
         searchLink={searchLinks.HobsbawmDevrim}
-        style={{ backgroundColor: "#bfdeff" }}
+        youtubeLink={youtubeLinks.HobsbawmDevrim}
       />
       <Book
-        name={"Platon"}
+        name={"Sermaye Çağı"}
         imageSource={bookLinks.HobsbawmSermaye}
-        author={"Frank Herbert"}
+        author={"Eric Hobsbawm - Dost Yayınevi"}
         searchLink={searchLinks.HobsbawmSermaye}
-        style={{ backgroundColor: "#c6ffe8" }}
+        noYoutube
       />
       <Book
-        name={"Platon"}
+        name={"Kısa 20. Yüzyıl "}
         imageSource={bookLinks.HobsbawmKısa}
-        author={"Frank Herbert"}
+        author={"Eric Hobsbawm - Dost Yayınevi"}
         searchLink={searchLinks.HobsbawmKısa}
-        style={{ backgroundColor: "#ffd3d3" }}
+        noYoutube
       />
       <Book
-        name={"Platon"}
+        name={"Sanayi ve İmparatorluk"}
         imageSource={bookLinks.HobsbawmSanayiveImp}
-        author={"Frank Herbert"}
+        author={"Eric Hobsbawm - Dost Yayınevi"}
         searchLink={searchLinks.HobsbawmSanayiveImp}
-        style={{ backgroundColor: "#fff8e5" }}
+        noYoutube
       />
       <Book
-        name={"Platon"}
+        name={"Sapiens"}
         imageSource={bookLinks.HarariSapiens}
-        author={"Frank Herbert"}
+        author={"Yuval Noah Harari - Kolektif Kitap"}
         searchLink={searchLinks.HarariSapiens}
-        style={{ backgroundColor: "#FFFFFF" }}
       />
       <Book
-        name={"Platon"}
+        name={"Homo Deus"}
         imageSource={bookLinks.HarariHomoDeus}
-        author={"Frank Herbert"}
+        author={"Yuval Noah Harari - Kolektif Kitap"}
         searchLink={searchLinks.HarariHomoDeus}
-        style={{ backgroundColor: "#b79275" }}
+        noYoutube
       />
       <Book
-        name={"Platon"}
+        name={"Tüfek, Mikrop ve Çelik"}
         imageSource={bookLinks.JaredTufekCelik}
-        author={"Frank Herbert"}
+        author={"Jared Diamond - Pegasus Yayınları"}
         searchLink={searchLinks.JaredTufekCelik}
-        style={{ backgroundColor: "#FFFFFF" }}
+        noYoutube
       />
       <Book
-        name={"Platon"}
+        name={"Olaylarla Türkiye Ekonomisi"}
         imageSource={bookLinks.YalınAlpayTarih}
-        author={"Frank Herbert"}
+        author={"Yalın Alpay - Hümanist Yayıncılık"}
         searchLink={searchLinks.YalınAlpayTarih}
-        style={{ backgroundColor: "#d5ccff" }}
+        noYoutube
       />
     </div>
   );

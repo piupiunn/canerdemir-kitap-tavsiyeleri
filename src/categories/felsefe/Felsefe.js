@@ -14,7 +14,6 @@ export default function Felsefe() {
         author={"Say Yayınları"}
         searchLink={searchLinks.Platon}
         youtubeLink={youtubeLinks.Platon}
-        style={{ backgroundColor: "#d5ccff" }}
       />
       <Book
         name={"Nietzsche"}
@@ -22,7 +21,6 @@ export default function Felsefe() {
         author={"Say Yayınları"}
         searchLink={searchLinks.Nietzsche}
         youtubeLink={youtubeLinks.Nietzsche}
-        style={{ backgroundColor: "#daffce" }}
       />
       <Book
         name={"Sokrates"}
@@ -30,14 +28,12 @@ export default function Felsefe() {
         author={"Say Yayınları"}
         searchLink={searchLinks.Sokrates}
         youtubeLink={youtubeLinks.Sokrates}
-        style={{ backgroundColor: "#ffced5" }}
       />
       <Book
         name={"Friedrich Nietzsche"}
         imageSource={bookLinks.NietzscheZerdust}
         author={"İş Bankası Kültür Yayınları"}
         searchLink={searchLinks.NietzscheZerdust}
-        style={{ backgroundColor: "#ffff" }}
         noYoutube
       />
       <Book
@@ -45,7 +41,6 @@ export default function Felsefe() {
         imageSource={bookLinks.NietzscheOtesinde}
         author={"İş Bankası Kültür Yayınları"}
         searchLink={searchLinks.NietzscheOtesinde}
-        style={{ backgroundColor: "#ffff" }}
         noYoutube
       />
       <Book
@@ -53,15 +48,13 @@ export default function Felsefe() {
         imageSource={bookLinks.PlatonDevlet}
         author={"İş Bankası Kültür Yayınları"}
         searchLink={searchLinks.PlatonDevlet}
-        style={{ backgroundColor: "#fff" }}
-        noYoutube
+        youtubeLink={youtubeLinks.PlatonDevlet}
       />
       <Book
         name={"Batı Felsefesi Tarihi 1"}
         imageSource={bookLinks.RusselSeriBir}
         author={"Bertrand Russell - Alfa Yayınları"}
         searchLink={searchLinks.RusselSeriBir}
-        style={{ backgroundColor: "#ffd6c4" }}
         noYoutube
       />
       <Book
@@ -69,7 +62,6 @@ export default function Felsefe() {
         imageSource={bookLinks.RusselSeriIkı}
         author={"Bertrand Russell - Alfa Yayınları"}
         searchLink={searchLinks.RusselSeriIkı}
-        style={{ backgroundColor: "#e1ffdb" }}
         noYoutube
       />
       <Book
@@ -77,7 +69,6 @@ export default function Felsefe() {
         imageSource={bookLinks.RusselSeriUc}
         author={"Bertrand Russell - Alfa Yayınları"}
         searchLink={searchLinks.RusselSeriUc}
-        style={{ backgroundColor: "#effeff" }}
         noYoutube
       />
       <Book
@@ -85,7 +76,6 @@ export default function Felsefe() {
         imageSource={bookLinks.Popper}
         author={"Karl Popper - Yapı Kredi Yayınları"}
         searchLink={searchLinks.Popper}
-        style={{ backgroundColor: "#fff5d8" }}
         noYoutube
       />
     </div>
