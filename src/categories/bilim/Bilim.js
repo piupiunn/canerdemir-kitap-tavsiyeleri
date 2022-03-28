@@ -10,24 +10,24 @@ export default function Bilim() {
     <div className="bilim">
       <Book
         name={"Charles Darwin"}
-        imageSource={bookLinks.DarwinErvim}
+        imageSource={bookLinks.DarwinEvrim}
         author={"Alfa Bilim"}
-        searchLink={searchLinks.DarwinErvim}
-        youtubeLink={youtubeLinks.Nietzsche}
+        searchLink={searchLinks.DarwinEvrim}
+        youtubeLink={youtubeLinks.DarwinErvim}
       />
       <Book
         name={"Charles Darwin"}
         imageSource={bookLinks.DarwinTureyis}
         author={"Alfa Bilim"}
         searchLink={searchLinks.DarwinTureyis}
-        youtubeLink={youtubeLinks.Nietzsche}
+        youtubeLink={youtubeLinks.DarwinTureyis}
       />
       <Book
         name={"Alan Sokal, Jean Bricmont"}
         imageSource={bookLinks.AlanSacmalar}
         author={"Alfa Bilim"}
         searchLink={searchLinks.AlanSacmalar}
-        youtubeLink={youtubeLinks.Nietzsche}
+        noYoutube
       />
     </div>
   );

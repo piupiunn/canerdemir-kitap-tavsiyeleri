@@ -1,7 +1,6 @@
 import React from "react";
 import Book from "../../components/book/Book";
-import { bookLinks, searchLinks } from "../../bookLinks";
-import "./Sanat.css";
+import { bookLinks, searchLinks, youtubeLinks } from "../../bookLinks";
 
 //style
 import "./Sanat.css";
@@ -10,46 +9,53 @@ export default function Sanat() {
   return (
     <div className="sanat">
       <Book
-        name={"Platon"}
+        name={"Sanatın Öyküsü"}
         imageSource={bookLinks.GombrichSanatınOykusu}
-        author={"Frank Herbert"}
+        author={"E.H. Gombrich - Remzi Kitabevi"}
         searchLink={searchLinks.GombrichSanatınOykusu}
+        youtubeLink={youtubeLinks.GombrichSanatınOykusu}
       />
       <Book
-        name={"Platon"}
+        name={"Görme Biçimleri"}
         imageSource={bookLinks.JohnBergerGorme}
-        author={"Frank Herbert"}
+        author={"John Berger - Metis Yayınları"}
         searchLink={searchLinks.JohnBergerGorme}
+        noYoutube
       />
       <Book
-        name={"Platon"}
+        name={"Sanatta Anlamın Görüntüsü"}
         imageSource={bookLinks.LeppertSanat}
-        author={"Frank Herbert"}
+        author={"Richard Leppert - Ayrıntı Yayınları"}
         searchLink={searchLinks.LeppertSanat}
+        noYoutube
       />
       <Book
-        name={"Platon"}
+        name={"Sanatta Bireyin Doğuşu"}
         imageSource={bookLinks.LegrosSanat}
-        author={"Frank Herbert"}
+        author={"Tzvetan Todorov - YKY"}
         searchLink={searchLinks.LegrosSanat}
+        noYoutube
       />
       <Book
-        name={"Platon"}
+        name={"Küratörlük"}
         imageSource={bookLinks.VesnaKuratorluk}
-        author={"Frank Herbert"}
+        author={"Vesna Madzoski - Koç Üni. Yayınları"}
         searchLink={searchLinks.VesnaKuratorluk}
+        noYoutube
       />
       <Book
-        name={"Platon"}
+        name={"Neden Bu Sanat?"}
         imageSource={bookLinks.BarrettCagdasSanat}
-        author={"Frank Herbert"}
+        author={"Terry Barrett - Hayalperest Kitap"}
         searchLink={searchLinks.BarrettCagdasSanat}
+        youtubeLink={youtubeLinks.BarrettCagdasSanat}
       />
       <Book
-        name={"Platon"}
+        name={"Sanatı Eleştirmek"}
         imageSource={bookLinks.BarrettElestirmek}
-        author={"Frank Herbert"}
+        author={"Terry Barrett - Hayalperest Kitap"}
         searchLink={searchLinks.BarrettElestirmek}
+        youtubeLink={youtubeLinks.BarrettElestirmek}
       />
     </div>
   );

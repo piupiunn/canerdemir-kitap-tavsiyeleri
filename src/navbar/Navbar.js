@@ -4,10 +4,10 @@ import { NavLink } from "react-router-dom";
 //style
 import "./Navbar.css";
 
-export default function Navbar() {
+export default function Navbar({ leftBorder }) {
   return (
     <div className="navbar">
-      <NavLink to="/felsefe">
+      <NavLink className="left-border" to="/felsefe">
         <p>Felsefe </p>
       </NavLink>
       <NavLink to="/tarih">
@@ -22,7 +22,7 @@ export default function Navbar() {
       <NavLink to="/kisisel-gelisim">
         <p>Kişisel Gelişim</p>
       </NavLink>
-      <NavLink to="/yonetim">
+      <NavLink className="right-border" to="/yonetim">
         <p>Yönetim</p>
       </NavLink>
     </div>

@@ -43,6 +43,13 @@ export default function Yonetım() {
         searchLink={searchLinks.YalınAlpaySiyaset}
         youtubeLink={youtubeLinks.YalınAlpaySiyaset}
       />
+      <Book
+        name={"Kitle ve İktidar"}
+        imageSource={bookLinks.Elias}
+        author={"Elias Canetti - Ayrıntı Yayınları"}
+        searchLink={searchLinks.Elias}
+        noYoutube
+      />
     </div>
   );
 }

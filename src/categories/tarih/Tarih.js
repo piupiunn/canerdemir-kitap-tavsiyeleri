@@ -48,13 +48,14 @@ export default function Tarih() {
         imageSource={bookLinks.HarariSapiens}
         author={"Yuval Noah Harari - Kolektif Kitap"}
         searchLink={searchLinks.HarariSapiens}
+        youtubeLink={youtubeLinks.HarariSapiens}
       />
       <Book
         name={"Homo Deus"}
         imageSource={bookLinks.HarariHomoDeus}
         author={"Yuval Noah Harari - Kolektif Kitap"}
         searchLink={searchLinks.HarariHomoDeus}
-        noYoutube
+        youtubeLink={youtubeLinks.HarariHomoDeus}
       />
       <Book
         name={"Tüfek, Mikrop ve Çelik"}

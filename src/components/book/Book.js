@@ -11,6 +11,7 @@ export default function Book({
   searchLink,
   youtubeLink,
   noYoutube,
+  multipyLinks,
 }) {
   return (
     <div className="book-box">

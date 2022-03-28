@@ -34,7 +34,7 @@ export default function Felsefe() {
         imageSource={bookLinks.NietzscheZerdust}
         author={"İş Bankası Kültür Yayınları"}
         searchLink={searchLinks.NietzscheZerdust}
-        noYoutube
+        youtubeLink={youtubeLinks.NietzscheZerdust}
       />
       <Book
         name={"Friedrich Nietzsche"}
