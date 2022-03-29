@@ -25,7 +25,7 @@ export const bookLinks = {
   HobsbawmImparatorluk:
     "https://cdn1.dokuzsoft.com/u/kuramkitap/img/c/i/m/imparatorluk-1574860701.jpg",
   YalınAlpayTarih:
-    "http://www.yalinalpay.com/uploads/1/4/9/0/14908878/editor/tu-rk-ye-ekonom-s-o-n-kapak.jpg?1515933113",
+    "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1510422146l/36577105._SX318_.jpg",
   HobsbawmSermaye:
     "https://cdn1.dokuzsoft.com/u/kitapambari/img/c/s/e/sermaye-cagi-1848-18757518d1e3f97945ce6ae8cbf9ba978cc9.jpg",
   HobsbawmDevrim:
