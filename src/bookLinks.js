@@ -89,6 +89,14 @@ export const bookLinks = {
     "https://iletisim.com.tr/Images/UserFiles/Images/Spot/120920172047.jpg",
   Hirigoyen:
     "https://iletisim.com.tr/Images/UserFiles/Images/Spot/manevi-taciz.jpg",
+  Dale: "https://i.dr.com.tr/cache/500x400-0/originals/0000000056693-1.jpg",
+  Greene: "https://i.dr.com.tr/cache/600x600-0/originals/0000000077265-1.jpg",
+  //roman
+  Proust: "https://i.dr.com.tr/cache/600x600-0/originals/0000000058316-1.jpg",
+  SarteBulantı:
+    "https://m.media-amazon.com/images/I/41QU7S11RRL._AC_SY1000_.jpg",
+  Bernard: "https://i.dr.com.tr/cache/600x600-0/originals/0001741227001-1.jpg",
+  Dostoyevski: "https://img.iskultur.com.tr/2007/06/karamazov-kardesler-4.png",
 };
 //
 
@@ -108,7 +116,7 @@ export const searchLinks = {
   PlatonDevlet:
     "https://www.google.com/search?q=Platon+Devlet+%C4%B0%C5%9F+Bankas%C4%B1&oq=Platon+Devlet+%C4%B0%C5%9F+Bankas%C4%B1&aqs=chrome..69i57.735j0j1&sourceid=chrome&ie=UTF-8",
   Popper:
-    "https://www.google.com/search?q=Popper+Daha+%C4%B0yi+Bir+D%C3%BCnya+Aray%C4%B1%C5%9F%C4%B1+YKY&oq=Popper+Daha+%C4%B0yi+Bir+D%C3%BCnya+Aray%C4%B1%C5%9F%C4%B1+YKY&aqs=chrome..69i57.1655j0j9&sourceid=chrome&ie=UTF-8",
+    "https://www.google.com/search?q=Popper+Hayat+Problem+%C3%87%C3%B6zmektir&oq=Popper+Hayat+Problem+%C3%87%C3%B6zmektir&aqs=chrome..69i57.5830j0j1&sourceid=chrome&ie=UTF-8",
   RusselSeriBir:
     "https://www.google.com/search?q=Bat%C4%B1+Felsefesi+Tarihi+1.+Cilt+Bertrand+Russell&oq=Bat%C4%B1+Felsefesi+Tarihi+1.+Cilt+Bertrand+Russell&aqs=chrome..69i57.16160j0j9&sourceid=chrome&ie=UTF-8",
   RusselSeriIkı:
@@ -188,6 +196,18 @@ export const searchLinks = {
     "https://www.google.com/search?q=Zor+Ki%C5%9Filiklerle+Ya%C5%9Famak+Christophe+Andre&oq=Zor+Ki%C5%9Filiklerle+Ya%C5%9Famak+Christophe+Andre&aqs=chrome..69i57.40231j0j9&sourceid=chrome&ie=UTF-8",
   Hirigoyen:
     "https://www.google.com/search?q=Marie-France+Hirigoyen+Manevi+Taciz&oq=Marie-France+Hirigoyen+Manevi+Taciz&aqs=chrome..69i57j69i60.10695j0j9&sourceid=chrome&ie=UTF-8",
+  Dale: "https://www.google.com/search?q=Dost+Kazanma+ve+%C4%B0nsanlar%C4%B1+Etkileme+Sanat%C4%B1+Dale+Carnegie&oq=Dost+Kazanma+ve+%C4%B0nsanlar%C4%B1+Etkileme+Sanat%C4%B1+Dale+Carnegie&aqs=chrome..69i57j69i61.5279j0j9&sourceid=chrome&ie=UTF-8",
+  Greene:
+    "https://www.google.com/search?q=%C4%B0KT%C4%B0DAR%3A+G%C3%BC%C3%A7+Sahibi+Olman%C4%B1n+48+Yasas%C4%B1+Robert+Greene&oq=%C4%B0KT%C4%B0DAR%3A+G%C3%BC%C3%A7+Sahibi+Olman%C4%B1n+48+Yasas%C4%B1+Robert+Greene&aqs=chrome..69i57j69i61.2383j0j7&sourceid=chrome&ie=UTF-8",
+  //roman
+  Proust:
+    "https://www.google.com/search?q=Marcel+Proust+Swann%27lar%C4%B1n+Taraf%C4%B1&oq=Marcel+Proust+Swann%27lar%C4%B1n+Taraf%C4%B1&aqs=chrome..69i57.22612j0j1&sourceid=chrome&ie=UTF-8",
+  SarteBulantı:
+    "https://www.google.com/search?q=Jean-Paul+Sartre+Bulant%C4%B1&oq=Jean-Paul+Sartre+Bulant%C4%B1&aqs=chrome..69i57.463j0j9&sourceid=chrome&ie=UTF-8",
+  Bernard:
+    "https://www.google.com/search?q=Thomas+Bernhard+Sars%C4%B1nt%C4%B1&oq=Thomas+Bernhard+Sars%C4%B1nt%C4%B1&aqs=chrome..69i57.23192j0j9&sourceid=chrome&ie=UTF-8",
+  Dostoyevski:
+    "https://www.google.com/search?q=Dostoyevski+Karamazov+Karde%C5%9Fler&oq=Dostoyevski+Karamazov+Karde%C5%9Fler&aqs=chrome..69i57.16127j0j9&sourceid=chrome&ie=UTF-8",
 };
 //
 

@@ -30,23 +30,23 @@ export default function Felsefe() {
         youtubeLink={youtubeLinks.Sokrates}
       />
       <Book
-        name={"Friedrich Nietzsche"}
+        name={"Böyle Söyledi Zerdüşt"}
         imageSource={bookLinks.NietzscheZerdust}
-        author={"İş Bankası Kültür Yayınları"}
+        author={"F. Nietzsche - İ. B. Kültür Yayınları"}
         searchLink={searchLinks.NietzscheZerdust}
         youtubeLink={youtubeLinks.NietzscheZerdust}
       />
       <Book
-        name={"Friedrich Nietzsche"}
+        name={"İyinin ve Kötünün Ötesinde "}
         imageSource={bookLinks.NietzscheOtesinde}
-        author={"İş Bankası Kültür Yayınları"}
+        author={"Nietzsche - İ. B. Kültür Yayınları"}
         searchLink={searchLinks.NietzscheOtesinde}
         noYoutube
       />
       <Book
-        name={"Platon"}
+        name={"Devlet"}
         imageSource={bookLinks.PlatonDevlet}
-        author={"İş Bankası Kültür Yayınları"}
+        author={"Platon - İ. B. Kültür Yayınları"}
         searchLink={searchLinks.PlatonDevlet}
         youtubeLink={youtubeLinks.PlatonDevlet}
       />
@@ -72,7 +72,7 @@ export default function Felsefe() {
         noYoutube
       />
       <Book
-        name={"Daha İyi Bir Dünya Arayış"}
+        name={"Hayat Problem Çözmektir"}
         imageSource={bookLinks.Popper}
         author={"Karl Popper - Yapı Kredi Yayınları"}
         searchLink={searchLinks.Popper}

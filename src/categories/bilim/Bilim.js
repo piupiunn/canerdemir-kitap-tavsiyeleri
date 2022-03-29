@@ -9,23 +9,23 @@ export default function Bilim() {
   return (
     <div className="bilim">
       <Book
-        name={"Charles Darwin"}
+        name={"Türlerin Kökeni"}
         imageSource={bookLinks.DarwinEvrim}
-        author={"Alfa Bilim"}
+        author={"Charles Darwin - Alfa Bilim"}
         searchLink={searchLinks.DarwinEvrim}
         youtubeLink={youtubeLinks.DarwinErvim}
       />
       <Book
-        name={"Charles Darwin"}
+        name={"İnsanın Türeyişi"}
         imageSource={bookLinks.DarwinTureyis}
-        author={"Alfa Bilim"}
+        author={"Charles Darwin - Alfa Bilim"}
         searchLink={searchLinks.DarwinTureyis}
         youtubeLink={youtubeLinks.DarwinTureyis}
       />
       <Book
-        name={"Alan Sokal, Jean Bricmont"}
+        name={"Son Moda Saçmalar"}
         imageSource={bookLinks.AlanSacmalar}
-        author={"Alfa Bilim"}
+        author={"Alan Sokal - Alfa Bilim"}
         searchLink={searchLinks.AlanSacmalar}
         noYoutube
       />

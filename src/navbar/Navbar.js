@@ -22,8 +22,11 @@ export default function Navbar({ leftBorder }) {
       <NavLink to="/kisisel-gelisim">
         <p>Kişisel Gelişim</p>
       </NavLink>
-      <NavLink className="right-border" to="/yonetim">
+      <NavLink to="/yonetim">
         <p>Yönetim</p>
+      </NavLink>
+      <NavLink className="right-border" to="/roman">
+        <p>Roman</p>
       </NavLink>
     </div>
   );

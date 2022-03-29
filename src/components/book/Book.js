@@ -11,13 +11,13 @@ export default function Book({
   searchLink,
   youtubeLink,
   noYoutube,
-  multipyLinks,
+  styleButton,
 }) {
   return (
     <div className="book-box">
       <div className="book">
-        <h3>{name}</h3>
-        <h4>{author}</h4>
+        <h3 style={style}>{name}</h3>
+        <h4 style={style}>{author}</h4>
         <div className="book-info">
           <img src={imageSource} alt="" />
         </div>
@@ -28,7 +28,7 @@ export default function Book({
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button style={style}>Google</button>
+            <button style={styleButton}>Google</button>
           </a>
 
           <a
@@ -37,7 +37,7 @@ export default function Book({
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button style={style}>Youtube</button>
+            <button style={styleButton}>Youtube</button>
           </a>
         </div>
       </div>

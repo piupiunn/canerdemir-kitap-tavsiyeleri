@@ -46,29 +46,43 @@ export default function KisiselGelisim() {
       <Book
         name={"Mutlu Yaşam Üzerine"}
         imageSource={bookLinks.Seneca}
-        author={"Seneca - İş Bankası Kültür Yayınları"}
+        author={"Seneca - İ. B. Kültür Yayınları"}
         searchLink={searchLinks.Seneca}
         noYoutube
       />
       <Book
         name={"Zor Bir Ailede Büyümek"}
         imageSource={bookLinks.Susan}
-        author={"Susan Forward - İetişim Yayınları"}
+        author={"Susan Forward - İletişim Yayınları"}
         searchLink={searchLinks.Susan}
         noYoutube
       />
       <Book
         name={"Zor Kişiliklerle Yaşamak"}
         imageSource={bookLinks.Francois}
-        author={"Christophe Andre - İetişim Yayınları"}
+        author={"Christophe Andre - İletişim Yayınları"}
         searchLink={searchLinks.Francois}
         noYoutube
       />
       <Book
         name={"Manevi Taciz"}
         imageSource={bookLinks.Hirigoyen}
-        author={"Marie F. Hirigoyen - İetişim Yayınları"}
+        author={"Marie F. Hirigoyen - İletişim Yayınları"}
         searchLink={searchLinks.Hirigoyen}
+        noYoutube
+      />
+      <Book
+        name={"Dost Kazanma Sanatı"}
+        imageSource={bookLinks.Dale}
+        author={"Dale Carnegie - Epsilon Yayınları"}
+        searchLink={searchLinks.Dale}
+        noYoutube
+      />
+      <Book
+        name={"İktidar"}
+        imageSource={bookLinks.Greene}
+        author={"Robert Greene -Altın Kitaplar"}
+        searchLink={searchLinks.Greene}
         noYoutube
       />
     </div>

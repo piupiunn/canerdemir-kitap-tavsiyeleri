@@ -1,0 +1,13 @@
+.roman {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 0;
+  flex: 20%;
+}
+@media screen and (max-width: 700px) {
+  .roman {
+    flex-direction: column;
+  }
+}

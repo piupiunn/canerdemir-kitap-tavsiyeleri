@@ -9,37 +9,39 @@ export default function Yonetım() {
   return (
     <div className="yonetim">
       <Book
-        name={"John Locke"}
+        style={{ marginLeft: "-8px" }}
+        name={"Yönetim Üzerine İkinci İnceleme"}
         imageSource={bookLinks.JohnLockeYonetim}
-        author={"Ebabil Yayınları"}
+        author={"John Locke - Serbest Kitaplar"}
         searchLink={searchLinks.JohnLockeYonetim}
         noYoutube
       />
       <Book
-        name={"John Stuart Mill"}
+        name={"Özgürlük Üzerine"}
         imageSource={bookLinks.JohnMillOzgurluk}
-        author={"Kutu Yayınları"}
+        author={"John Stuart Mill - Kutu Yayınları"}
         searchLink={searchLinks.JohnMillOzgurluk}
         noYoutube
       />
       <Book
-        name={"Jean-Jacques Rousseau"}
+        name={"Toplum Sözleşmesi"}
         imageSource={bookLinks.Rousseau}
-        author={"Alfa Bilim"}
+        author={"Jean-Jacques Rousseau - İ. B. Kültür Yayınları"}
         searchLink={searchLinks.Rousseau}
         noYoutube
+        styleButton={{ marginTop: "40px" }}
       />
       <Book
-        name={"Montesquieu"}
+        name={"Kanunların Ruhu Üzerine"}
         imageSource={bookLinks.Montesquieu}
-        author={"Alfa Bilim"}
+        author={"Montesquieu - İ. B. Kültür Yayınları"}
         searchLink={searchLinks.Montesquieu}
         noYoutube
       />
       <Book
-        name={"Yalın Alpay"}
+        name={"Yalanın Siyaseti"}
         imageSource={bookLinks.YalınAlpaySiyaset}
-        author={"Alfa Bilim"}
+        author={"Destek Yayınları"}
         searchLink={searchLinks.YalınAlpaySiyaset}
         youtubeLink={youtubeLinks.YalınAlpaySiyaset}
       />

@@ -8,9 +8,11 @@ import Sanat from "./categories/sanat/Sanat";
 import Bilim from "./categories/bilim/Bilim";
 import Yonetım from "./categories/yonetim/Yonetım";
 import KisiselGelisim from "./categories/kisisel-gelisim/KisiselGelisim";
+import AnaSayfa from "./categories/ana-sayfa/Anasayfa";
 
 //style
 import "./App.css";
+import Roman from "./categories/roman/Roman";
 
 function App() {
   return (
@@ -19,12 +21,14 @@ function App() {
         <Navbar />
 
         <Routes>
+          <Route path="/" element={<AnaSayfa />} />
           <Route path="/felsefe" element={<Felsefe />} />
           <Route path="/tarih" element={<Tarih />} />
           <Route path="/sanat" element={<Sanat />} />
           <Route path="/bilim" element={<Bilim />} />
           <Route path="/yonetim" element={<Yonetım />} />
           <Route path="/kisisel-gelisim" element={<KisiselGelisim />} />
+          <Route path="/roman" element={<Roman />} />
         </Routes>
       </BrowserRouter>
     </div>
