@@ -1,7 +1,7 @@
 {
   "name": "canerdemir-kitap-tavsiyeleri",
   "version": "0.1.0",
-  "homepage": "https://piupiunn.github.io/kitap-tavsiyeleri/",
+  "homepage": "https://piupiunn.github.io/canerdemir-kitap-tavsiyeleri/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
