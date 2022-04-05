@@ -12,4 +12,4 @@ Build With;
 Description;
 
 
-A website that recommends quality and intellectual books that I plan to publish as a real site in the future.
+A mobile responsive website that proposes quality and intellectual books that I plan to publish as a real site in the future.
