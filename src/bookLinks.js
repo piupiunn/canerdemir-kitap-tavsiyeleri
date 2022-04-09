@@ -54,6 +54,8 @@ export const bookLinks = {
     "https://m.media-amazon.com/images/I/41mVjbt2z1L._AC_SY780_.jpg",
   BarrettElestirmek:
     "https://i.dr.com.tr/cache/600x600-0/originals/0000000422120-1.jpg",
+  YalınAlpayYapıt:
+    "https://i.dr.com.tr/cache/500x400-0/originals/0001899351001-1.jpg",
   //bilim
   DarwinTureyis:
     "https://images-na.ssl-images-amazon.com/images/I/51gKpOvPEvL.jpg",
@@ -157,6 +159,8 @@ export const searchLinks = {
     "https://www.google.com/search?q=Terry+Barrett+Neden+Bu+Sanat%3F%3A+%C3%87a%C4%9Fda%C5%9F+Sanatta+Estetik+ve+Ele%C5%9Ftiri&oq=Terry+Barret+Neden+Bu+Sanat%3F%3A+%C3%87a%C4%9Fda%C5%9F+Sanatta+Estetik+ve+Ele%C5%9Ftiri&aqs=chrome..69i57.26200j0j9&sourceid=chrome&ie=UTF-8",
   BarrettElestirmek:
     "https://www.google.com/search?q=Terry+Barrett+Sanat%C4%B1+Ele%C5%9Ftirmek%3A+G%C3%BCnceli+Anlamak&oq=Terry+Barrett+Sanat%C4%B1+Ele%C5%9Ftirmek%3A+G%C3%BCnceli+Anlamak&aqs=chrome..69i57j69i59j69i60.343j0j1&sourceid=chrome&ie=UTF-8",
+  YalınAlpayYapıt:
+    "https://www.google.com/search?q=Yal%C4%B1n+Alpay+Yap%C4%B1ts%C3%B6k%C3%BCm&oq=Yal%C4%B1n+Alpay+Yap%C4%B1ts%C3%B6k%C3%BCm&aqs=chrome..69i57j69i61l2.17368j0j1&sourceid=chrome&ie=UTF-8",
   //bilim
   DarwinEvrim:
     "https://www.google.com/search?q=Darwin+T%C3%BCrlerin+K%C3%B6keni+Alfa+Bilim&oq=Darwin+T%C3%BCrlerin+K%C3%B6keni+Alfa+Bilim&aqs=chrome..69i57.6816j0j9&sourceid=chrome&ie=UTF-8",

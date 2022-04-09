@@ -57,6 +57,13 @@ export default function Sanat() {
         searchLink={searchLinks.BarrettElestirmek}
         youtubeLink={youtubeLinks.BarrettElestirmek}
       />
+      <Book
+        name={"Yapıt Söküm"}
+        imageSource={bookLinks.YalınAlpayYapıt}
+        author={"Yalın Alpay - Destek Yayınları"}
+        searchLink={searchLinks.YalınAlpayYapıt}
+        noYoutube
+      />
     </div>
   );
 }
