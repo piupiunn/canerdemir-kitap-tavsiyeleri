@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/canerdemir-kitap-tavsiyeleri/static/css/main.415ef1a4.css",
-    "main.js": "/canerdemir-kitap-tavsiyeleri/static/js/main.49b84146.js",
+    "main.js": "/canerdemir-kitap-tavsiyeleri/static/js/main.d59e01fd.js",
     "index.html": "/canerdemir-kitap-tavsiyeleri/index.html",
     "main.415ef1a4.css.map": "/canerdemir-kitap-tavsiyeleri/static/css/main.415ef1a4.css.map",
-    "main.49b84146.js.map": "/canerdemir-kitap-tavsiyeleri/static/js/main.49b84146.js.map"
+    "main.d59e01fd.js.map": "/canerdemir-kitap-tavsiyeleri/static/js/main.d59e01fd.js.map"
   },
   "entrypoints": [
     "static/css/main.415ef1a4.css",
-    "static/js/main.49b84146.js"
+    "static/js/main.d59e01fd.js"
   ]
 }
