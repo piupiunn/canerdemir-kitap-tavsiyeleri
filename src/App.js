@@ -9,10 +9,9 @@ import Bilim from "./categories/bilim/Bilim";
 import Yonetım from "./categories/yonetim/Yonetım";
 import KisiselGelisim from "./categories/kisisel-gelisim/KisiselGelisim";
 import AnaSayfa from "./categories/ana-sayfa/Anasayfa";
-
+import Roman from "./categories/roman/Roman";
 //style
 import "./App.css";
-import Roman from "./categories/roman/Roman";
 
 function App() {
   return (
