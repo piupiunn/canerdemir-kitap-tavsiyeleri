@@ -1,83 +1,178 @@
-.book {
-  display: grid;
-  margin-top: 10px;
-  margin-left: 40px;
-}
-.book h3 {
-  margin-top: 10px;
-}
-.book h4 {
-  margin-left: 0px;
-}
-.book img {
-  margin-top: 10px;
-  width: 200px;
-  height: 300px;
-  border-radius: 10px;
-  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
-    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
-  filter: contrast(120%);
-  color: black;
-}
-
-.book-info {
-  width: 199px;
-  height: 298px;
-
-  color: black;
-  padding-left: 10px;
-}
 .book-box {
-  margin-left: 50px;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
   transition: all 0.7s ease;
-  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
-    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
-  width: 300px;
-  height: 440px;
-  background-color: white;
-  border-radius: 10px;
+
+  width: 32%;
+  min-height: 200px;
+  position: relative;
+  margin-top: 50px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 .book-box:hover {
   transform: scale(1.1);
   transition: all 0.7s ease;
 }
+
+.book {
+  display: flex;
+}
+
+.book-info {
+  color: black;
+  width: 30%;
+  height: 100%;
+
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  left: 30px;
+  bottom: 10px;
+}
+.book-front-img {
+  border-radius: 5px;
+  box-shadow: rgb(45 35 66 / 40%) 0 2px 4px, rgb(45 35 66 / 30%) 0 7px 13px -3px,
+    #d6d6e7 0 -3px 0 inset;
+  filter: contrast(120%);
+  color: black;
+  width: 100%;
+  height: 100%;
+}
+
+.book-box:hover .book-backside-info {
+  opacity: 1;
+
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.book-box:hover .book-reading-difficulty-parent {
+  opacity: 0;
+
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.book-box:hover .book-info {
+  opacity: 0;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.book-box:hover .book-info-details {
+  opacity: 0;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.book-box:hover .book-title {
+  opacity: 0;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.book-backside-info {
+  color: white;
+  opacity: 0;
+
+  justify-content: center;
+}
+.book-backside-info p {
+  padding: 10px;
+  font-size: 11.5px;
+  letter-spacing: 0.5px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.book-right {
+  width: 50%;
+  height: 100%;
+
+  right: 0;
+  position: absolute;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.book-right-inside {
+}
+
+.book-reading-difficulty-parent {
+  color: white;
+  font-weight: 200;
+  text-align: center;
+
+  width: 93%;
+
+  background-color: rgba(31, 20, 20, 0.903);
+  position: absolute;
+  font-size: 9px;
+  bottom: 10px;
+  right: 0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.book-reading-difficulty {
+  margin: auto !important;
+}
+
+.book-title {
+  display: grid;
+  gap: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.book h1 {
+  color: white;
+  font-size: 22px;
+}
+.book h4 {
+  color: white;
+  font-size: 12px;
+}
+.book-info-details {
+  color: white;
+  font-size: 12px;
+  margin-top: 12px;
+}
+
+.book-box:hover .buttons {
+  opacity: 0;
+}
+
 .buttons {
   display: flex;
-  margin-left: -10px;
+  width: 100%;
+  justify-content: space-evenly;
   color: white;
+  bottom: 40px;
+  right: 0px;
+  position: absolute;
 }
 .buttons a {
   text-decoration: none;
-  font-weight: 1000;
 }
-.buttons button {
-  border-radius: 4px;
-  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
-    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+.buttons-inside {
+  border-radius: 100px;
   box-sizing: border-box;
-  font-weight: 1000;
   transition: background 0.8s;
-  width: 100px;
-  height: 40px;
-  margin-top: 55px;
-  margin-right: 10px;
+  width: 100%;
+  height: 15px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: #ffffff;
-  margin-left: 15px;
-  font-size: 13px;
-  padding: 2px;
-  color: #36395a;
+  line-height: 1px;
+  letter-spacing: 0.5px;
+  font-size: 12px;
+  -webkit-box-shadow: 0px 9px 24px -4px rgb(0 0 0 / 75%);
+  font-weight: bolder;
   border-width: 0;
   transition: box-shadow 0.15s, transform 0.15s;
 }
 .buttons button:focus {
-  box-shadow: #d6d6e7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
-    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
 }
 
 .buttons button:hover {
-  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
-    rgba(45, 35, 66, 0.3) 0 1px 2px -1px, #d6d6e7 0 -3px 0 inset;
   transform: translateY(-2px);
 }
 
@@ -86,10 +181,383 @@
   transform: translateY(2px);
 }
 
+.book-box:hover .buttons2 {
+  opacity: 1;
+}
+
+.buttons2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  color: white;
+  bottom: 20px;
+  right: 0px;
+  left: 0;
+  position: absolute;
+  opacity: 0;
+}
+.buttons2 a {
+  text-decoration: none;
+}
+.buttons-inside2 {
+  border-radius: 100px;
+  box-sizing: border-box;
+  transition: background 0.8s;
+  width: 100%;
+  height: 15px;
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #ffffff;
+  line-height: 1px;
+  letter-spacing: 0.5px;
+  font-size: 12px;
+  -webkit-box-shadow: 0px 9px 24px -4px rgb(0 0 0 / 75%);
+  font-weight: bolder;
+  border-width: 0;
+  transition: box-shadow 0.15s, transform 0.15s;
+}
+.buttons2 button:focus {
+}
+
+.buttons2 button:hover {
+  transform: translateY(-2px);
+}
+
+.buttons2 button:active {
+  box-shadow: #d6d6e7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
 .no-youtube {
-  visibility: collapse;
+  display: none;
 }
 
 .center-button {
-  margin-left: 55px;
+  justify-content: center;
 }
+
+.only-one-button {
+  width: 350px !important;
+}
+
+/**felsefe */
+
+.background-purple {
+  background-color: rgb(106, 94, 150);
+}
+.color-purple {
+  color: rgb(106, 94, 150);
+}
+
+.background-green {
+  background-color: rgb(113, 143, 104);
+}
+.color-green {
+  color: rgb(113, 143, 104);
+}
+
+.background-red {
+  background-color: rgb(158, 72, 90);
+}
+.color-red {
+  color: rgb(158, 72, 90);
+}
+
+.background-yellow {
+  background-color: rgb(203, 191, 106);
+}
+.color-yellow {
+  color: rgb(203, 191, 106);
+}
+
+.background-brown {
+  background-color: rgb(137, 104, 88);
+}
+.color-brown {
+  color: rgb(137, 104, 88);
+}
+
+.background-green2 {
+  background-color: #5e7e59;
+}
+.color-green2 {
+  color: #5e7e59;
+}
+
+.background-light-blue {
+  background-color: #557a7a;
+}
+.color-light-blue {
+  color: #557a7a;
+}
+
+.background-dark-yellow {
+  background-color: rgb(233, 192, 59);
+}
+.color-dark-yellow {
+  color: rgb(233, 192, 59);
+}
+
+/**felsefe */
+
+/**roman */
+
+.background-white {
+  background-color: #f0e4de;
+}
+.color-white {
+  color: #f0e4de;
+}
+
+.background-dark-red {
+  background-color: rgb(219, 31, 72);
+}
+.color-dark-red {
+  color: rgb(219, 31, 72);
+}
+
+/**roman */
+
+/**tarih */
+
+.background-dark-red2 {
+  background-color: rgb(154, 106, 106);
+}
+.color-dark-red2 {
+  color: rgb(154, 106, 106);
+}
+
+.background-dark-blue {
+  background-color: rgb(78, 109, 143);
+}
+.color-dark-blue {
+  color: rgb(78, 109, 143);
+}
+
+.background-dark-green {
+  background-color: rgb(67, 130, 104);
+}
+.color-dark-green {
+  color: rgb(67, 130, 104);
+}
+
+.background-dark-red3 {
+  background-color: rgb(206, 58, 58);
+}
+.color-dark-red3 {
+  color: rgb(206, 58, 58);
+}
+
+.background-lightbrown {
+  background-color: rgb(152, 146, 129);
+}
+.color-lightbrown {
+  color: rgb(152, 146, 129);
+}
+
+.background-remix1 {
+  background-color: rgb(188, 144, 120);
+}
+.color-remix1 {
+  color: rgb(188, 144, 120);
+}
+
+.background-black1 {
+  background-color: rgb(85, 67, 56);
+}
+.color-black1 {
+  color: rgb(85, 67, 56);
+}
+
+.background-yellow2 {
+  background-color: rgb(222, 164, 88);
+}
+.color-yellow2 {
+  color: rgb(222, 164, 88);
+}
+
+.background-darkblue2 {
+  background-color: rgb(71, 61, 120);
+}
+.color-darkblue2 {
+  color: rgb(71, 61, 120);
+}
+
+/**tarih */
+
+/**sanat */
+
+.background-pink {
+  background-color: rgb(237, 211, 209);
+}
+.color-pink {
+  color: rgb(216, 192, 190);
+}
+
+.background-gray {
+  background-color: rgb(219, 219, 222);
+}
+.color-gray {
+  color: rgb(219, 219, 222);
+}
+
+.background-darkgreen {
+  background-color: rgb(100, 107, 49);
+}
+.color-darkgreen {
+  color: rgb(100, 107, 49);
+}
+
+.background-lightyellow {
+  background-color: rgb(223, 223, 180);
+}
+.color-lightyellow {
+  color: rgb(223, 223, 180);
+}
+
+.background-purple2 {
+  background-color: rgb(162, 90, 169);
+}
+.color-purple2 {
+  color: rgb(162, 90, 169);
+}
+
+.background-blue2 {
+  background-color: rgb(0, 76, 146);
+}
+.color-blue2 {
+  color: rgb(0, 76, 146);
+}
+
+/**sanat */
+/**bilim */
+.background-green3 {
+  background-color: rgb(122, 122, 84);
+}
+.color-green3 {
+  color: rgb(122, 122, 84);
+}
+
+.background-green4 {
+  background-color: rgb(86, 110, 72);
+}
+.color-green4 {
+  color: rgb(86, 110, 72);
+}
+
+.background-dark {
+  background-color: rgb(69, 77, 108);
+}
+.color-dark {
+  color: rgb(69, 77, 108);
+}
+
+/**bilim */
+
+/**kisisel-gelisim */
+
+.background-red2 {
+  background-color: rgb(176, 37, 37);
+}
+.color-red2 {
+  color: rgb(176, 37, 37);
+}
+
+.background-blue3 {
+  background-color: rgb(153, 145, 187);
+}
+.color-blue3 {
+  color: rgb(153, 145, 187);
+}
+
+.background-red3 {
+  background-color: rgb(155, 135, 117);
+}
+.color-red3 {
+  color: rgb(155, 135, 117);
+}
+
+.background-orange {
+  background-color: rgb(172, 113, 31);
+}
+.color-orange {
+  color: rgb(172, 113, 31);
+}
+
+.background-black {
+  background-color: rgb(150, 57, 57);
+}
+.color-black {
+  color: rgb(120, 59, 45);
+}
+
+.background-yellow3 {
+  background-color: rgb(209, 195, 73);
+}
+.color-yellow3 {
+  color: rgb(209, 195, 73);
+}
+
+.background-pink2 {
+  background-color: rgb(164, 48, 106);
+}
+.color-pink2 {
+  color: rgb(164, 48, 106);
+}
+
+.background-blue4 {
+  background-color: rgb(41, 113, 121);
+}
+.color-blue4 {
+  color: rgb(41, 113, 121);
+}
+
+.background-red4 {
+  background-color: rgb(101, 52, 57);
+}
+.color-red4 {
+  color: rgb(101, 52, 57);
+}
+
+.background-black4 {
+  background-color: rgb(53, 48, 23);
+}
+.color-black4 {
+  color: rgb(53, 48, 23);
+}
+
+/**kisisel-gelisim */
+
+/**yonetim */
+
+.background-dark3 {
+  background-color: rgb(63, 37, 21);
+}
+.color-dark3 {
+  color: rgb(63, 37, 21);
+}
+
+.background-black3 {
+  background-color: rgb(45, 45, 45);
+}
+.color-black3 {
+  color: rgb(45, 45, 45);
+}
+
+.background-red5 {
+  background-color: rgb(136, 128, 116);
+}
+.color-red5 {
+  color: rgb(101, 52, 57);
+}
+
+.background-blue5 {
+  background-color: rgb(43, 54, 85);
+}
+.color-blue5 {
+  color: rgb(43, 54, 85);
+}
+
+/**yonetim */

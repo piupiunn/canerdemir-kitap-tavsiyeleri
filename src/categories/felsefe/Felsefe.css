@@ -1,13 +1,11 @@
 .felsefe {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 100px;
-  margin-left: 50px;
-  margin-right: 0;
-  flex: 20%;
-}
-@media screen and (max-width: 700px) {
-  .felsefe {
-    flex-direction: column;
-  }
+  /* justify-content: space-between; */
+  margin-top: 50px;
+  /* margin-left: auto !important; */
+  /* margin-right: auto !important; */
+  width: 100%;
+  /* padding: 5%; */
+  gap: 2%;
 }
