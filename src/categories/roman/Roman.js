@@ -21,7 +21,7 @@ export default function Roman() {
           searchLink={searchLinks.Proust}
           bookBack={bookBacks.Proust}
           bookInfo={""}
-          bookDifficulty={""}
+          bookDifficulty={"Giriş"}
           noYoutube
           darkyellowBackground
           colorDarkYellow
@@ -34,7 +34,7 @@ export default function Roman() {
           searchLink={searchLinks.SarteBulantı}
           bookBack={bookBacks.SarteBulantı}
           bookInfo={""}
-          bookDifficulty={""}
+          bookDifficulty={"Giriş"}
           noYoutube
           whiteBackground
           colorWhite
@@ -47,7 +47,7 @@ export default function Roman() {
           searchLink={searchLinks.Bernard}
           bookBack={bookBacks.Bernard}
           bookInfo={""}
-          bookDifficulty={" "}
+          bookDifficulty={"Giriş "}
           noYoutube
           darkredBackground
           colorDarkred
@@ -60,7 +60,7 @@ export default function Roman() {
           searchLink={searchLinks.Dostoyevski}
           bookBack={bookBacks.Dostoyevski}
           bookInfo={""}
-          bookDifficulty={" "}
+          bookDifficulty={"Giriş "}
           noYoutube
           colorYellow
           yellowBackground

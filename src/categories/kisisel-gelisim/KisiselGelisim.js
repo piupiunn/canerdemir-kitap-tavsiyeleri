@@ -31,6 +31,7 @@ export default function KisiselGelisim() {
           bookInfo={""}
           bookDifficulty={"Giriş "}
           noYoutube
+          onlyOneButton
           blue3Background
           colorBlue3
         />

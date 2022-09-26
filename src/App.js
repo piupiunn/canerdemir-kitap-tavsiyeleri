@@ -20,7 +20,7 @@ function App() {
         <Navbar />
 
         <Routes>
-          <Route path="/" element={<AnaSayfa />} />
+          <Route path="/canerdemir-kitap-tavsiyeleri" element={<AnaSayfa />} />
           <Route path="/felsefe" element={<Felsefe />} />
           <Route path="/tarih" element={<Tarih />} />
           <Route path="/sanat" element={<Sanat />} />

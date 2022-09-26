@@ -20,9 +20,7 @@ export default function Yonetım() {
           author={"John Locke - Serbest Kitaplar"}
           searchLink={searchLinks.JohnLockeYonetim}
           bookBack={bookBacks.JohnLockeYonetim}
-          bookInfo={
-            "Nietzsche'nin yazılarının olduğu ve bunların bazı yorumlarını içeren, Nietzsche hakkında genel bir çerçeve kazanmak için güzel bir giriş kitabı."
-          }
+          bookInfo={""}
           bookDifficulty={"Giriş "}
           noYoutube
           onlyOneButton
@@ -35,9 +33,7 @@ export default function Yonetım() {
           author={"John Stuart Mill - Kutu Yayınları"}
           searchLink={searchLinks.JohnMillOzgurluk}
           bookBack={bookBacks.JohnMillOzgurluk}
-          bookInfo={
-            "Nietzsche'nin yazılarının olduğu ve bunların bazı yorumlarını içeren, Nietzsche hakkında genel bir çerçeve kazanmak için güzel bir giriş kitabı."
-          }
+          bookInfo={""}
           bookDifficulty={"Giriş "}
           noYoutube
           onlyOneButton
