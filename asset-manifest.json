@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/canerdemir-kitap-tavsiyeleri/static/css/main.e4e06491.css",
+    "main.css": "/canerdemir-kitap-tavsiyeleri/static/css/main.67997845.css",
     "main.js": "/canerdemir-kitap-tavsiyeleri/static/js/main.db57d7fe.js",
     "static/media/Say-Sokrates.jpg": "/canerdemir-kitap-tavsiyeleri/static/media/Say-Sokrates.84e61de10b65833730ab.jpg",
     "static/media/eric-hobsbawm- kisa-20.yuzyil-tarihi.png": "/canerdemir-kitap-tavsiyeleri/static/media/eric-hobsbawm- kisa-20.yuzyil-tarihi.4ec56c74870227fc99e1.png",
@@ -52,11 +52,11 @@
     "static/media/yky-sanatta-bireyin-dogusu.jpg": "/canerdemir-kitap-tavsiyeleri/static/media/yky-sanatta-bireyin-dogusu.c752876ca627d5be3870.jpg",
     "static/media/dost-yayinevi-devrim-cagi.jpg": "/canerdemir-kitap-tavsiyeleri/static/media/dost-yayinevi-devrim-cagi.81572832714e09c8755d.jpg",
     "index.html": "/canerdemir-kitap-tavsiyeleri/index.html",
-    "main.e4e06491.css.map": "/canerdemir-kitap-tavsiyeleri/static/css/main.e4e06491.css.map",
+    "main.67997845.css.map": "/canerdemir-kitap-tavsiyeleri/static/css/main.67997845.css.map",
     "main.db57d7fe.js.map": "/canerdemir-kitap-tavsiyeleri/static/js/main.db57d7fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4e06491.css",
+    "static/css/main.67997845.css",
     "static/js/main.db57d7fe.js"
   ]
 }
