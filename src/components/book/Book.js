@@ -165,9 +165,6 @@ export default function Book({
             </div>
 
             <p className="book-info-details">{bookInfo}</p>
-            <div className="book-reading-difficulty-parent">
-              <p className="book-reading-difficulty">{bookDifficulty}</p>
-            </div>
           </div>
         </div>
 
@@ -177,7 +174,9 @@ export default function Book({
           </p>
         </div>
       </div>
-
+      <div className="book-reading-difficulty-parent">
+        <p className="book-reading-difficulty">{bookDifficulty}</p>
+      </div>
       <div className="buttons2">
         <a
           className={`${noYoutube && "center-button"}`}

@@ -21,34 +21,13 @@ function App() {
 
         <Routes>
           <Route path="/canerdemir-kitap-tavsiyeleri" element={<AnaSayfa />} />
-          <Route
-            path="/canerdemir-kitap-tavsiyeleri/felsefe"
-            element={<Felsefe />}
-          />
-          <Route
-            path="/canerdemir-kitap-tavsiyeleri/tarih"
-            element={<Tarih />}
-          />
-          <Route
-            path="/canerdemir-kitap-tavsiyeleri/sanat"
-            element={<Sanat />}
-          />
-          <Route
-            path="/canerdemir-kitap-tavsiyeleri/bilim"
-            element={<Bilim />}
-          />
-          <Route
-            path="/canerdemir-kitap-tavsiyeleri/yonetim"
-            element={<Yonetım />}
-          />
-          <Route
-            path="/canerdemir-kitap-tavsiyeleri/kisisel-gelisim"
-            element={<KisiselGelisim />}
-          />
-          <Route
-            path="/canerdemir-kitap-tavsiyeleri/roman"
-            element={<Roman />}
-          />
+          <Route path="/felsefe" element={<Felsefe />} />
+          <Route path="/tarih" element={<Tarih />} />
+          <Route path="/sanat" element={<Sanat />} />
+          <Route path="/bilim" element={<Bilim />} />
+          <Route path="/yonetim" element={<Yonetım />} />
+          <Route path="/kisisel-gelisim" element={<KisiselGelisim />} />
+          <Route path="/roman" element={<Roman />} />
         </Routes>
       </BrowserRouter>
     </div>
