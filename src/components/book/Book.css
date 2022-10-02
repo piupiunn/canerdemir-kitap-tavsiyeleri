@@ -13,6 +13,7 @@
 .book-box:hover {
   transform: scale(1.1);
   transition: all 0.7s ease;
+  border-radius: 5px;
 }
 
 .book {
