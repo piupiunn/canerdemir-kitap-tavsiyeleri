@@ -69,7 +69,7 @@ export default function Yonetım() {
         <Book
           name={"Yalanın Siyaseti"}
           imageSource={bookLinks.YalınAlpaySiyaset}
-          author={"Destek Yayınları"}
+          author={"Yalın Alpay - Destek Yayınları"}
           searchLink={searchLinks.YalınAlpaySiyaset}
           youtubeLink={youtubeLinks.YalınAlpaySiyaset}
           bookBack={bookBacks.YalınAlpaySiyaset}

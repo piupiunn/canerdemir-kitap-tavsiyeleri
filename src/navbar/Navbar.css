@@ -2,15 +2,13 @@
   display: flex;
   margin: auto;
 
-  gap: 4%;
   background-color: white;
   padding: 10px;
 }
 
 .navbar a {
   color: black;
-  padding-left: 5%;
-  padding-right: 5%;
+  flex: 1;
   padding-top: 1%;
   font-weight: 900;
 }

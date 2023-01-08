@@ -102,7 +102,7 @@
   background-color: rgba(31, 20, 20, 0.903);
   position: absolute;
   font-size: 9px;
-  bottom: -5.5%;
+  bottom: -5%;
   right: 0;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -558,4 +558,11 @@
   color: rgb(43, 54, 85);
 }
 
-/**yonetim */
+/**bilim-kurgu */
+.backgroundcolor-dune {
+  background-color: rgb(94, 74, 21);
+}
+.color-dune {
+  color: rgb(94, 74, 21);
+}
+/**bilim-kurgu */

@@ -10,6 +10,7 @@ import Yonetım from "./categories/yonetim/Yonetım";
 import KisiselGelisim from "./categories/kisisel-gelisim/KisiselGelisim";
 import AnaSayfa from "./categories/ana-sayfa/Anasayfa";
 import Roman from "./categories/roman/Roman";
+import BilimKurgu from "./categories/bilim-kurgu/BilimKurgu";
 //style
 import "./App.css";
 
@@ -28,6 +29,7 @@ function App() {
           <Route path="/yonetim" element={<Yonetım />} />
           <Route path="/kisisel-gelisim" element={<KisiselGelisim />} />
           <Route path="/roman" element={<Roman />} />
+          <Route path="/bilim-kurgu" element={<BilimKurgu />} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -52,6 +52,7 @@ import ProustBook from "../src/img/yapi-kredi-marcel-proust-swannlarin-tarafi.jp
 import SarteBulantıBook from "../src/img/sartre-bulanti.jpg";
 import BernardBook from "../src/img/yapi-kredi-thomas-bernhard-sarsinti.jpg";
 import DostoyevskiBook from "../src/img/is-bankasi-dostoyevski-karamazov-kardesler.png";
+import FrankHerbertBook from "../src/img/dune-frank-herbert.jpg";
 
 export const bookLinks = {
   //felsefe
@@ -113,6 +114,8 @@ export const bookLinks = {
   SarteBulantı: SarteBulantıBook,
   Bernard: BernardBook,
   Dostoyevski: DostoyevskiBook,
+  //bilim-kurgu
+  FrankHerbert: FrankHerbertBook,
 };
 //
 
@@ -226,6 +229,9 @@ export const searchLinks = {
     "https://www.google.com/search?q=Thomas+Bernhard+Sars%C4%B1nt%C4%B1&oq=Thomas+Bernhard+Sars%C4%B1nt%C4%B1&aqs=chrome..69i57.23192j0j9&sourceid=chrome&ie=UTF-8",
   Dostoyevski:
     "https://www.google.com/search?q=Dostoyevski+Karamazov+Karde%C5%9Fler&oq=Dostoyevski+Karamazov+Karde%C5%9Fler&aqs=chrome..69i57.16127j0j9&sourceid=chrome&ie=UTF-8",
+  //bilim-kurgu
+  FrankDune:
+    "https://www.google.com/search?q=Dune+Frank+Herbert&oq=Dune+Frank+Herbert&aqs=chrome..69i57.8450j0j1&sourceid=chrome&ie=UTF-8",
 };
 //
 
@@ -375,4 +381,6 @@ export const bookBacks = {
     "Sarsıntı varoluşun gizemine, insanın cinnet eşliğinde yürüyen, sağaltılamaz yaban yalnızlığına ilişkin delice hakikatlerle örülmüş bir söz ustalığı.",
   Dostoyevski:
     "Dostoyevski'nin yaşam birikiminin tümünü ve sanat gücünün doruğunu içeren bu roman, gerçekte insanı insan yapan ne varsa, onlara adanmış bir destan niteliğini taşır. Yazar, hiçbir romanında 'Karamazov Kardeşler'de olduğu denli insan ruhuna inmemiş, insanoğlunu bu denli kesitler biçiminde, içgüdülerinin ve istencinin tüm görünümüyle sergilenmiştir.",
+  FrankDune:
+    "Modern edebiyatın en epik mesih anlatılarından biri sayılan Dune, genç Paul Atreides'in hikayesini anlatır. Atreides'in ailesi, evrendeki en önemli ve en değerli madde olan melanj 'baharatının' tek kaynağı olarak bilinen Arrakis gezegeninin kontrolünü kabul etmiştir. İmpatorluğun güçleri Arrakis'in kontrolü için birbirlerinin boğazına sarılırken, politika, din, ekoloji, teknoloji ve insani duyguların çok katmanlı, karmaşık etkileşiminden benzersiz bir hikaye doğacaktır. ",
 };

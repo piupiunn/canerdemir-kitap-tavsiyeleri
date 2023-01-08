@@ -57,6 +57,7 @@ export default function Book({
   black3Background,
   red5Background,
   blue5Background,
+  backgroundcolorDune,
 
   colorPurple,
   colorGreen,
@@ -99,6 +100,7 @@ export default function Book({
   colorBlack3,
   colorRed5,
   colorBlue5,
+  colorDune,
 }) {
   return (
     <div
@@ -145,6 +147,7 @@ export default function Book({
        ${black3Background && "background-black3"}
        ${red5Background && "background-red5"}
        ${blue5Background && "background-blue5"}
+       ${backgroundcolorDune && "backgroundcolor-dune"}
 
         `}
     >
@@ -160,7 +163,9 @@ export default function Book({
         <div className="book-right">
           <div className="book-right-inside">
             <div className="book-title">
-              <h1 style={style}>{name}</h1>
+              <h1 className="book-h" style={style}>
+                {name}
+              </h1>
               <h4 style={style}>{author}</h4>
             </div>
 
@@ -229,6 +234,9 @@ export default function Book({
                    ${colorBlack3 && "color-black3  "}
                    ${colorRed5 && "color-red5  "}
                    ${colorBlue5 && "color-blue5  "}                   
+                   ${colorDune && "color-dune  "}       
+                   
+                   
                    `}
           >
             Google
