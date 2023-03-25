@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/canerdemir-kitap-tavsiyeleri/static/css/main.15246c67.css",
-    "main.js": "/canerdemir-kitap-tavsiyeleri/static/js/main.e3f1221c.js",
+    "main.css": "/canerdemir-kitap-tavsiyeleri/static/css/main.7d77cac2.css",
+    "main.js": "/canerdemir-kitap-tavsiyeleri/static/js/main.cb9fa732.js",
     "static/media/Say-Sokrates.jpg": "/canerdemir-kitap-tavsiyeleri/static/media/Say-Sokrates.84e61de10b65833730ab.jpg",
     "static/media/eric-hobsbawm- kisa-20.yuzyil-tarihi.png": "/canerdemir-kitap-tavsiyeleri/static/media/eric-hobsbawm- kisa-20.yuzyil-tarihi.4ec56c74870227fc99e1.png",
     "static/media/yapi-kredi-kanunların-ruhu-uzerine.png": "/canerdemir-kitap-tavsiyeleri/static/media/yapi-kredi-kanunların-ruhu-uzerine.907f1e0b84f757ffb702.png",
@@ -53,11 +53,11 @@
     "static/media/dune-frank-herbert.jpg": "/canerdemir-kitap-tavsiyeleri/static/media/dune-frank-herbert.0444cf502d9db7c99978.jpg",
     "static/media/dost-yayinevi-devrim-cagi.jpg": "/canerdemir-kitap-tavsiyeleri/static/media/dost-yayinevi-devrim-cagi.81572832714e09c8755d.jpg",
     "index.html": "/canerdemir-kitap-tavsiyeleri/index.html",
-    "main.15246c67.css.map": "/canerdemir-kitap-tavsiyeleri/static/css/main.15246c67.css.map",
-    "main.e3f1221c.js.map": "/canerdemir-kitap-tavsiyeleri/static/js/main.e3f1221c.js.map"
+    "main.7d77cac2.css.map": "/canerdemir-kitap-tavsiyeleri/static/css/main.7d77cac2.css.map",
+    "main.cb9fa732.js.map": "/canerdemir-kitap-tavsiyeleri/static/js/main.cb9fa732.js.map"
   },
   "entrypoints": [
-    "static/css/main.15246c67.css",
-    "static/js/main.e3f1221c.js"
+    "static/css/main.7d77cac2.css",
+    "static/js/main.cb9fa732.js"
   ]
 }
