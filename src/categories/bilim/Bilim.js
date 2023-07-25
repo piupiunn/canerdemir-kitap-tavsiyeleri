@@ -13,7 +13,7 @@ import "./Bilim.css";
 export default function Bilim() {
   return (
     <div className="container">
-      <div className="bilim">
+      <div className="bilim books-flex ">
         <Book
           name={"Türlerin Kökeni"}
           imageSource={bookLinks.DarwinEvrim}

@@ -13,7 +13,7 @@ import "./Yonetım.css";
 export default function Yonetım() {
   return (
     <div className="container">
-      <div className="yonetim">
+      <div className="yonetim books-flex ">
         <Book
           name={"Yönetim Üzerine İkinci İnceleme"}
           imageSource={bookLinks.JohnLockeYonetim}

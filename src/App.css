@@ -1,96 +1,67 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: white;
+  font-family: "Lato", sans-serif;
+}
+button {
+  font-family: inherit;
+}
+.container {
+  width: 100%;
+
+  margin-right: auto;
+  margin-left: auto;
+}
+.container div {
+  justify-content: center;
+}
+.container-navbar {
+  width: 100%;
+
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (max-width: 375px) {
+  .book-box {
+    min-height: 170px !important;
+  }
+  .container {
+    max-width: 90%;
+  }
+  .book-backside-info p {
+    bottom: 48px !important;
+
+    -webkit-line-clamp: 7 !important;
+  }
+}
 @media (max-width: 768px) {
+  .book-box {
+    width: 100% !important;
+  }
+  .container {
+    max-width: 90%;
+  }
+}
+@media (max-width: 1024px) {
+  .book-box {
+    width: 60%;
+  }
   .container {
     max-width: 90%;
   }
   .navbar {
     gap: 1%;
   }
-  .book-box {
-    width: 100%;
-    min-height: 150px;
-    margin-top: 0;
-    margin-bottom: 75px;
-  }
-  .book-title {
-    margin-left: 5px;
-  }
-  .book-title h1 {
-    font-size: 13px;
-  }
-  .book-title h4 {
-    font-size: 10px;
-  }
-  .book-backside-info p {
-    font-size: 9px;
-  }
-  .navbar p {
-    font-size: 9px;
-  }
-  .book-reading-difficulty-parent {
-    bottom: -7%;
-  }
 }
-@media (max-width: 376px) {
-  .book-backside-info p {
-    font-size: 10px;
-  }
-}
-@media (max-width: 1025px) and (min-width: 426px) {
-  .container {
-    max-width: 90%;
-  }
-  .book-box {
-    width: 43%;
-    min-height: 150px;
-    margin-left: 5%;
-    margin-top: 0;
-    margin-bottom: 75px;
-  }
-  .book-title {
-    margin-left: 5px;
-  }
-  .book-title h1 {
-    font-size: 13px;
-  }
-  .book-title h4 {
-    font-size: 10px;
-  }
-  .book-backside-info p {
-    font-size: 9px;
-  }
-  .navbar p {
-    font-size: 9px;
-  }
-  .book-reading-difficulty-parent {
-    bottom: -7.3%;
-  }
-}
-@media (max-width: 1201px) and (min-width: 1025px) {
+
+@media (max-width: 1400px) and (min-width: 1025px) {
   .book-box {
     width: 48%;
   }
-  .felsefe {
-    gap: 3%;
-  }
-  .kisisel-gelisim {
-    gap: 3%;
-  }
-  .tarih {
-    gap: 3%;
-  }
-  .sanat {
-    gap: 3%;
-  }
-  .bilim {
-    gap: 3%;
-  }
-  .yonetim {
-    gap: 3%;
-  }
-  .bilim-kurgu {
-    gap: 3%;
-  }
-  .roman {
+  .books-flex {
     gap: 3%;
   }
 }
@@ -111,56 +82,4 @@
   .container {
     max-width: 1350px;
   }
-}
-@media (max-width: 1401px) {
-  .buttons2 {
-    scale: 0.8;
-    gap: 20px;
-    margin-bottom: -5px;
-  }
-  .book-reading-difficulty {
-    margin-left: 80%;
-    margin-top: 55%;
-  }
-}
-@media (max-width: 1201px) {
-  .buttons2 {
-    scale: 0.65;
-    gap: 20px;
-    margin-bottom: -5px;
-  }
-
-  .book-reading-difficulty {
-    margin-top: 65%;
-  }
-}
-@media (max-width: 1025px) {
-  .buttons2 {
-    scale: 0.6;
-    gap: 20px;
-    margin-bottom: -10px;
-  }
-}
-* {
-  margin: 0px;
-  padding: 0px;
-}
-body {
-  background-color: white;
-  font-family: "Lato", sans-serif;
-}
-button {
-  font-family: inherit;
-}
-.container {
-  width: 100%;
-
-  margin-right: auto;
-  margin-left: auto;
-}
-.container-navbar {
-  width: 100%;
-
-  margin-right: auto;
-  margin-left: auto;
 }

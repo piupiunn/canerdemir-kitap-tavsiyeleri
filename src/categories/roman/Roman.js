@@ -13,7 +13,7 @@ import "./Roman.css";
 export default function Roman() {
   return (
     <div className="container">
-      <div className="roman">
+      <div className="roman books-flex ">
         <Book
           name={"Swann'ların Tarafı"}
           imageSource={bookLinks.Proust}

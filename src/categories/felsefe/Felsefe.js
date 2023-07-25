@@ -13,7 +13,7 @@ import "./Felsefe.css";
 export default function Felsefe() {
   return (
     <div className="container">
-      <div className="felsefe">
+      <div className="felsefe books-flex ">
         <Book
           name={"Platon"}
           imageSource={bookLinks.Platon}

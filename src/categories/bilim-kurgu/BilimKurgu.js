@@ -8,7 +8,7 @@ import "./Bilim-Kurgu.css";
 export default function BilimKurgu() {
   return (
     <div className="container">
-      <div className="bilim-kurgu">
+      <div className="bilim-kurgu books-flex ">
         <Book
           name={"Dune"}
           imageSource={bookLinks.FrankHerbert}

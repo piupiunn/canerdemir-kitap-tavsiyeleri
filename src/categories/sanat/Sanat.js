@@ -13,7 +13,7 @@ import "./Sanat.css";
 export default function Sanat() {
   return (
     <div className="container">
-      <div className="sanat">
+      <div className="sanat books-flex ">
         <Book
           name={"Sanatın Öyküsü"}
           imageSource={bookLinks.GombrichSanatınOykusu}

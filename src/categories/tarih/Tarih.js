@@ -13,7 +13,7 @@ import "./Tarih.css";
 export default function Tarih() {
   return (
     <div className="container">
-      <div className="tarih">
+      <div className="tarih books-flex ">
         <Book
           name={"İmparatorluk Çağı"}
           imageSource={bookLinks.HobsbawmImparatorluk}

@@ -8,7 +8,7 @@ import "./KisiselGelisim.css";
 export default function KisiselGelisim() {
   return (
     <div className="container">
-      <div className="kisisel-gelisim">
+      <div className="kisisel-gelisim books-flex ">
         <Book
           name={"Aşık Olmak"}
           imageSource={bookLinks.Ayala}
