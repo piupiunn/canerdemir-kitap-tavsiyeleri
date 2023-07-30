@@ -32,8 +32,6 @@ button {
     max-width: 90%;
   }
   .book-backside-info p {
-    bottom: 48px !important;
-
     -webkit-line-clamp: 7 !important;
   }
 }

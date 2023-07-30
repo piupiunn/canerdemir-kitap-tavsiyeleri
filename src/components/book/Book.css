@@ -81,12 +81,14 @@
   justify-content: center;
 }
 .book-backside-info p {
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
   font-size: 13px;
   letter-spacing: 0px;
   position: absolute;
   top: 0;
-  bottom: 47px;
+
   left: 0;
   right: 0;
   -webkit-line-clamp: 9;
